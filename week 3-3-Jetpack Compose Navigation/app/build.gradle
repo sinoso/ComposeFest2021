@@ -86,7 +86,7 @@ android {
 }
 
 dependencies {
-
+    implementation "androidx.navigation:navigation-compose:2.4.0-beta02"
     implementation "androidx.appcompat:appcompat:$rootProject.appCompatVersion"
     implementation "androidx.core:core-ktx:$rootProject.ktxVersion"
     implementation "com.google.android.material:material:$rootProject.materialVersion"
@@ -107,8 +107,8 @@ dependencies {
 
     // Testing dependencies
     androidTestImplementation "androidx.arch.core:core-testing:$rootProject.coreTestingVersion"
-    androidTestImplementation "androidx.test.espresso:espresso-contrib:$rootProject.espressoVersion"
-    androidTestImplementation "androidx.test.espresso:espresso-core:$rootProject.espressoVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-contrib:3.5.0-alpha03"
+    androidTestImplementation "androidx.test.espresso:espresso-core:3.5.0-alpha03"
     androidTestImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.2'
 
     // Compose testing dependencies
